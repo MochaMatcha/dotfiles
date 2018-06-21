@@ -1,7 +1,8 @@
 # Spaceship Prompt Configuration
 
 # Character
-SPACESHIP_CHAR_SYMBOL="❯ "
+# Might use for later config - ❯
+SPACESHIP_CHAR_SYMBOL="$ "
 
 # Time
 SPACESHIP_TIME_SHOW=true
