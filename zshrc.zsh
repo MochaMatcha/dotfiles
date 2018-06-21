@@ -1,3 +1,5 @@
+screenfetch
+
 source ~/antigen/antigen.zsh
 
 # Antigen Plugins
