@@ -3,11 +3,11 @@ screenfetch
 source ~/antigen/antigen.zsh
 
 # Antigen Plugins
-source ~/dotfiles/antigen-config.zsh && antigen apply
+source ~/dotfiles/zsh/antigen-config.zsh && antigen apply
 
 # Spaceship Config
 
-source ~/dotfiles/spaceship-config.zsh
+source ~/dotfiles/zsh/spaceship-config.zsh
 
 # Aliases
 
