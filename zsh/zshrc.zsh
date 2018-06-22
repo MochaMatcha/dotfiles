@@ -1,4 +1,3 @@
-screenfetch
 
 source ~/antigen/antigen.zsh
 
