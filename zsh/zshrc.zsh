@@ -1,16 +1,29 @@
 
 source ~/antigen/antigen.zsh
 
-# Antigen Plugins
-source ~/dotfiles/zsh/antigen-config.zsh && antigen apply
+# Plugins
 
-# Spaceship Config
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-autosuggestions
+antigen theme https://github.com/denysdovhan/spaceship-prompt spaceship
 
-source ~/dotfiles/zsh/spaceship-config.zsh
+antigen apply
 
-# Aliases
+# Spaceship config
 
-alias python="python3"
-alias pip="pip3"
-alias idle="idle3"
-alias la="ls -a"
+SPACESHIP_CHAR_SYMBOL="$ "
+
+SPACESHIP_TIME_SHOW=true
+SPACESHIP_TIME_12HR=true
+SPACESHIP_TIME_SUFFIX=" | "
+
+SPACESHIP_EXIT_CODE_SHOW=true
+SPACESHIP_EXIT_CODE_SYMBOL="✘ "
+
+SPACESHIP_EXEC_TIME_ELAPSED=1
+
+SPACESHIP_USER_PREFIX="⚡ "
+
+# -----------------
+
+alias v="nvim"
